@@ -1,0 +1,44 @@
+{% extends 'blog/base/base.html' %}
+{% block main %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<style>
+    body {background-color: #1ee9df;}
+</style>
+<body>
+<h1 align="center">in the name of god</h1>
+
+{% for profiles in profile %}
+    <p>your email is : {{ profiles.user }}</p>
+{% endfor %}
+
+<h2>wellcome to our web</h2>
+
+
+<br>
+{% for posts in post %}
+        <p>{{ post.title }}</p>
+        <p>{{ post.desc }}</p>
+        <p>{{ post.publish }}</p>
+        <p><img src="{{ post.image.url }}" alt=""></p>
+
+{% endfor %}
+<br>
+<br>
+<div class="urll">
+<h3><a href="{% url 'blog:profileUpdate' %}"><button>set profile</button></a></h3>
+
+<h3><a href="{% url 'blog:profile_view' %}"><button>view profile</button></a></h3>
+
+<h3><a href="{% url 'blog:logout' %}">logout</a></h3>
+
+<center><h3><a href="{% url 'blog:vip' %}">vip</a></h3></center>
+</div>
+</body>
+</body>
+</html>
+{% endblock  %}

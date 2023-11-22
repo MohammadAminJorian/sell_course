@@ -1,0 +1,80 @@
+
+{% extends 'blog/base/base.html' %}
+{% block main %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input[type=text], select {
+    width: 15%;
+    padding: 6px 10px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+input[type=email], select {
+    width: 15%;
+    padding: 6px 10px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkipt-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+    width:12%
+    color = black;
+    border:none
+    padding= 24px 50px;
+    margin: 8px 10;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=email] {
+    width: 15%;
+    padding: 6px 10px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+
+input[type=password] {
+    width: 15%;
+    padding: 6px 10px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing:border-box;
+    background-color: #11c4db
+}
+
+    a [href] {
+        color: aliceblue;
+    }
+    
+    </style>
+</head>
+<body>
+<form method="post">
+    <center>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit">
+    </center>
+</form>
+</body>
+</html>
+{% endblock  %}

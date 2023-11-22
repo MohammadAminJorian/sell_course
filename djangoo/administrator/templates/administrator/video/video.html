@@ -1,0 +1,30 @@
+{% extends 'blog/base/base.html' %}
+{% load static %}
+{% block main %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    {% for video in video %}
+        <p>
+            {{ video.title }}
+        </p>
+        <p>
+            {{ video.video }}
+        </p>
+        <p>
+            <h1>Next:</h1>
+        </p>
+        <form action="" >
+            {% csrf_token %}
+            <a href="{% url 'administrator:cart' video.id %}">buy</a>
+        </form>
+    {% endfor %}
+</center>
+</body>
+</html>
+{% endblock  %}

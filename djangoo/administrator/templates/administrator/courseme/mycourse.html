@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for videos in video %}
+    <p>
+        <p>{{ videos.title }}</p>
+        <video width="320" height="240" controls>
+            <source src="{{ videos.video }}" type="video/mp4">
+        </video>
+    </p>
+{% endfor %}
+</body>
+</html>

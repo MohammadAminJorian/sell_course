@@ -1,0 +1,99 @@
+{% extends 'blog/base/base1.html' %}
+{% block main %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register page</title>
+</head>
+<style>
+    input[type=text], select {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+input[type=email], select {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkipt-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+    width:20%
+    color = black;
+    border:none
+    padding= 24px 50px;
+    margin: 8px 10;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=email] {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing:border-box;
+}
+
+input[type=password] {
+    width: 20%;
+    padding: 6px 10px;
+    margin: 1px 0;
+    display: inline-block;
+    border: 1px solid yellow;
+    border-radius: 4px;
+    box-sizing:border-box;
+    background-color: #11c4db
+}
+
+
+
+
+
+</style>
+
+<body>
+   <center>
+        <h1>
+            Rigister page
+        </h1>
+    </center>
+<h2>Enter your information for create an account</h2>
+<br>
+    <br>
+
+<center><form action="" method="post">
+    {% csrf_token %}
+<br>
+    <h4>{{ form.as_p }}</h4>
+    <center><input type="submit" value="send"></center>
+</form>
+</center>
+<br>
+<br>
+
+<h3><a href="{% url 'blog:login' %}"><button>I have an account</button></a></h3>
+</body>
+</html>
+<br>
+<br>
+<br>
+    <br>
+{% endblock  %}
