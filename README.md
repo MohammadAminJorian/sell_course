@@ -22,7 +22,7 @@ python manage.py runserver
 1. Has has online purchase system
 2. Has has an online course sales system
 3. With approval number
-4. Has a posting system
+4. Has a posting system<br>
 and ...
 
 <br>
