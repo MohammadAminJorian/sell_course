@@ -138,9 +138,9 @@ def login_phone(request):
             phone = f"{data['phone']}"
             random_code = random.randint(1000, 9999)
             sms = KavenegarAPI(
-                "506F3137686B342F564B7966506249625556624371525A5065725342414E7954396F5874686E733234334D3D")
+                "*")
             params = {
-                'sender': '2000500666',  # Array of String
+                'sender': '*',  # Array of String
                 'receptor': phone,  # Array of String
                 'message': f' {random_code} سلام این اولین تست است ',
             }
