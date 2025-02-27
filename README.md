@@ -17,11 +17,12 @@ pip install -r requirements.txt
 mv  sell_course/settings.py sell_course/settings.py
 python manage.py migrate  # Create database tables  
 python manage.py runserver
+<br>
 
 1. Has has online purchase system
 2. Has has an online course sales system
-3. With approval number<br>
-4. Has a posting system<br>
+3. With approval number
+4. Has a posting system
 and ...
 
 <br>
