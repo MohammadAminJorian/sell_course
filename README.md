@@ -1,5 +1,12 @@
 
 
+# My first Django project
+<br>
+
+# اولین پروژه جنگو من 
+<br>
+<br>
+
 
 # System of buying and selling virtual courses
 
