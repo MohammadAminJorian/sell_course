@@ -61,7 +61,7 @@ python manager.py runserver<br><br>
 
 <br>
 
-![imgـ1.png](imgـ1.png)
+![img_1.png](img_1.png)
 
 <br>
 
