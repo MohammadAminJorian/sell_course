@@ -146,7 +146,6 @@ API_KEY = ''
 
 
 
-
 CMSPLUGIN_CASCADE_PLUGINS_WITH_EXTRA_RENDER_TEMPLATES = {
     'ShopCartPlugin': (
         (None, ("default")),  # the default behavior
