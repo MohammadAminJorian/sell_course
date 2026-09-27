@@ -102,7 +102,6 @@ This project also has a special place in my development journey because it was *
 
 # 📸 Screenshots
 
-## 🏠 Application Interface
 
 <p align="center">
   <img src="img_1.png" width="90%" alt="Application Interface">
@@ -110,7 +109,6 @@ This project also has a special place in my development journey because it was *
 
 ---
 
-## 🎓 Course System
 
 <p align="center">
   <img src="img_2.png" width="90%" alt="Course System">
@@ -118,7 +116,6 @@ This project also has a special place in my development journey because it was *
 
 ---
 
-## 🛒 Purchase System
 
 <p align="center">
   <img src="img_3.png" width="90%" alt="Purchase System">
@@ -126,7 +123,6 @@ This project also has a special place in my development journey because it was *
 
 ---
 
-## 👤 User System
 
 <p align="center">
   <img src="img_4.png" width="90%" alt="User System">
@@ -134,7 +130,6 @@ This project also has a special place in my development journey because it was *
 
 ---
 
-## 📝 Post System
 
 <p align="center">
   <img src="img_5.png" width="90%" alt="Post System">
@@ -142,7 +137,6 @@ This project also has a special place in my development journey because it was *
 
 ---
 
-## 💻 Additional Views
 
 <p align="center">
   <img src="img_6.png" width="90%" alt="Project Screenshot">
@@ -440,7 +434,6 @@ If you found this project interesting, consider giving it a ⭐ on GitHub.
 
 # 📸 تصاویر پروژه
 
-## 🏠 رابط کاربری
 
 <p align="center">
   <img src="img_1.png" width="90%" alt="رابط کاربری پروژه">
@@ -448,7 +441,6 @@ If you found this project interesting, consider giving it a ⭐ on GitHub.
 
 ---
 
-## 🎓 سیستم دوره‌ها
 
 <p align="center">
   <img src="img_2.png" width="90%" alt="سیستم دوره‌ها">
@@ -456,7 +448,6 @@ If you found this project interesting, consider giving it a ⭐ on GitHub.
 
 ---
 
-## 🛒 سیستم خرید
 
 <p align="center">
   <img src="img_3.png" width="90%" alt="سیستم خرید">
@@ -464,7 +455,6 @@ If you found this project interesting, consider giving it a ⭐ on GitHub.
 
 ---
 
-## 👤 سیستم کاربران
 
 <p align="center">
   <img src="img_4.png" width="90%" alt="سیستم کاربران">
@@ -472,7 +462,6 @@ If you found this project interesting, consider giving it a ⭐ on GitHub.
 
 ---
 
-## 📝 سیستم انتشار پست
 
 <p align="center">
   <img src="img_5.png" width="90%" alt="سیستم پست">
@@ -480,7 +469,6 @@ If you found this project interesting, consider giving it a ⭐ on GitHub.
 
 ---
 
-## 💻 سایر بخش‌های پروژه
 
 <p align="center">
   <img src="img_6.png" width="90%" alt="تصویر پروژه">
